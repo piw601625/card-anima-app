@@ -1,13 +1,6 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 import styled from 'styled-components/native';
-import {
-  Animated,
-  Dimensions,
-  Easing,
-  Pressable,
-  TouchableOpacity,
-  PanResponder,
-} from 'react-native';
+import { Animated, PanResponder } from 'react-native';
 import Ionicons from '@expo/vector-icons/Ionicons';
 import icons from './icons';
 
